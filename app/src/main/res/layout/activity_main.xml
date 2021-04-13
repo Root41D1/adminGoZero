@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/kotak"
+        android:layout_width="370dp"
+        android:layout_height="143dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/persegidanmuka" />
+
+    <ImageView
+        android:id="@+id/ava"
+        android:layout_width="81dp"
+        android:layout_height="79dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/ava" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Selamat Datang,"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="145dp"
+        android:layout_width="wrap_content"
+        android:textSize="14dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monseratregular"
+        android:text="Administrator"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/tombolkeluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/ic_logoutbtn"
+        android:layout_marginRight="20dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/kotakreport"
+                android:layout_width="450dp"
+                android:layout_height="670dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@drawable/kotakreport" />
+
+            <TextView
+                android:id="@+id/reporttitle"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="155dp"
+                android:layout_width="wrap_content"
+                android:textSize="24dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monseratextrabold"
+                android:text="Report"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/diagramlogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="75dp"
+                app:srcCompat="@drawable/ic_reportdiagram" />
+
+            <ImageView
+                android:id="@+id/iutlogo"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="60dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_iutlogo" />
+
+            <ImageView
+                android:id="@+id/tomboliut"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="345dp"
+                android:layout_marginLeft="310dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_chevron_left" />
+
+            <ImageView
+                android:id="@+id/iut2logo"
+                android:layout_marginTop="420dp"
+                android:layout_marginLeft="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_iutttlogo" />
+
+            <ImageView
+                android:id="@+id/tomboliut2"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="425dp"
+                android:layout_marginLeft="310dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_chevron_left" />
+
+            <ImageView
+                android:id="@+id/picalogo"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="60dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_picalogo" />
+
+            <ImageView
+                android:id="@+id/tombolpica"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="505dp"
+                android:layout_marginLeft="310dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_chevron_left" />
+
+            <TextView
+                android:id="@+id/iuttext"
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="125dp"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monseratextrabold"
+                android:text="IUT"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/detail1"
+                android:layout_marginTop="368dp"
+                android:layout_marginLeft="125dp"
+                android:layout_width="wrap_content"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:text="lihat detil"
+                android:textColor="#474A57"/>
+
+            <TextView
+                android:id="@+id/iut2text"
+                android:layout_marginTop="420dp"
+                android:layout_marginLeft="125dp"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monseratextrabold"
+                android:text="IUT2"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/detail2"
+                android:layout_marginTop="448dp"
+                android:layout_marginLeft="125dp"
+                android:layout_width="wrap_content"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:text="lihat detil"
+                android:textColor="#474A57"/>
+
+            <TextView
+                android:id="@+id/picatext"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="125dp"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monseratextrabold"
+                android:text="PICA"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/detail3"
+                android:layout_marginTop="528dp"
+                android:layout_marginLeft="125dp"
+                android:layout_width="wrap_content"
+                android:textSize="14dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:text="lihat detil"
+                android:textColor="#474A57"/>
+
+            <TextView
+                android:id="@+id/tombollihatsemua"
+                android:layout_marginTop="610dp"
+                android:layout_marginLeft="115dp"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:ems="6"
+                android:textAlignment="center"
+                android:padding="8dp"
+                android:background="@drawable/bordertombolcreate"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Lihat Semua"
+                android:textColor="@color/white"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
